@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// CSS utama
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(about_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(about_background.jpg);
+    opacity: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 2500px;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: #30cf85;
+    font-size: 35px;
+    font-family: OMORI_GAME2;
+    padding-left: 50px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+    
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover{
+    color: #30cf85;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin:auto;
+    color: #fff;
+}
+
+.content h1 {
+    font-family: 'OMORI_GAME2';
+    font-size: 90px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.content p {
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    margin-top: 2%;
+    background-color: #269963;
+    border-radius: 20px;
+    padding: 10px 15px;
+    opacity: 85%;
+}
+
+.content h2 {
+    font-family: 'OMORI_GAME2';
+    font-size: 70px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.content dt {
+    font-family: OMORI_GAME2;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-top: 2%;
+    background-color: #269963;
+    border-radius: 20px;
+    padding: 10px 15px;
+    opacity: 85%;
+    text-align: center;
+}
+
+.content dd {
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin-top: 2%;
+}
+
+.team{
+    margin-left: 70px;
+}
+.team li {
+    font-family: OMORI_GAME2;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-top: 1%;
+    background-color: #269963;
+    border-radius: 20px;
+    padding: 15px 20px;
+    opacity: 85%;
+}
+
+.team img {
+    float: left;
+    width:70px;
+    height:75px;
+    border-radius:70%;
+
+
+}
+
+.team p {
+    background: none;
+    font-family:OMORI_GAME2;
+    margin-left:70px;
+}
+
+.pegawai,.review {
+    display: inline-block;
+    width: 45%;
+}
+
+.review {
+    margin-left: 30px;
+}
+
+.afiliasi {
+    margin: auto;
+}
+
+.afiliasi td {
+    padding: 10px;
+    border:5px solid white;
+    border-radius: 10px;
+    font-family: OMORI_GAME2;
+    font-size:30px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.afiliasi img{
+    height: 90px;
+    width: 250px;
+}
