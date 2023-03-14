@@ -1,3 +1,7 @@
+:root {
+    scroll-behavior: smooth;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -74,6 +78,41 @@ body{
 
 .menu ul li a:hover{
     color: #30cf85;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:#fff;
+	min-width: 160px;
+	padding: 12px 16px;
+	z-index: 1;
+	border-radius: 20px;
+    font-family: Arial;
+    font-weight:bold;
+  }
+
+.dropdown-content a:hover {
+    background-color:#30cf85;
+	border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .content{
