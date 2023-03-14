@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Petunia Greenhouse</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index3.html">ABOUT</a></li>
+                    <div class="dropdown">
+                        <li><a href="index2.html" class="dropbtn">OUR PRODUCTS</a></li>
+                        <div class="dropdown-content">
+                            <a href="#p1">Kerja Kami Baru-baru Ini</a>
+                            <a href="#p2">Paket-paket Kami</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div> 
+    <div>
+    <div class="content">
+        <h1 id="p1">Kerja Kami Baru-baru Ini</h1>
+        <video controls>
+            <source src="garden_makeover.mp4" type="video/mp4">
+        </video>
+        <iframe src="https://www.youtube.com/embed/IY69EZXjZ0c">
+        </iframe>
+        <h1 id="p2">Paket-paket Kami</h1>
+        <form method="post">
+            <div class="imgcontainer">
+              <img src="logo_form/park.png" alt="Avatar" class="avatar">
+            </div>
+            <p>Paket Makeover Kebun/Taman</p>
+          
+            <div class="container">
+              <label for="uname"><b>Nama</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter Email Account" name="email" required>
+              <br>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <label for="number"><b>Nomor Telepon</b></label>
+              <input type="number" placeholder="Enter Number" name="number" required>
+
+              <label for="file"><b>Foto Kebun/Taman</b></label>
+              <input type="file" id="file" name="file" required>
+
+              <label for="plant"><b>Tipe Tanaman</b></label>
+                <select id="plant" name="plant">
+                <option value="bunga">Bunga</option>
+                <option value="sayur">Sayur-sayuran</option>
+                <option value="buah">Buah-buahan</option>
+                <option value="herbal">Herbal</option>
+                </select>
+                <br>
+                
+                <label for="note"><b>Catatan Tambahan</b></label><br>
+                <textarea name="note" rows="10" cols="30"></textarea>
+            
+
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+
+        </form>
+        <form method="post">
+            <div class="imgcontainer">
+              <img src="logo_form/watering-plants.png" alt="Avatar" class="avatar">
+            </div>
+            <p>Paket Edukasi</p>
+          
+            <div class="container">
+              <label for="uname"><b>Nama</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter Email Account" name="email" required>
+              <br>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <label for="number"><b>Nomor Telepon</b></label>
+              <input type="number" placeholder="Enter Number" name="number" required>
+
+              <label for="package"><b>Pilih Jenis Paket</b></label> <br>
+              <input type="radio" id="bunga" name="package" value="Pengenalan tentang jenis-jenis tanaman bunga dan cara bercocok tanamnya." required>
+              <label for="package">Pengenalan tentang jenis-jenis tanaman bunga dan cara bercocok tanamnya.</label><br>
+              <input type="radio" id="sayur" name="package" value="Pengenalan tentang jenis-jenis sayur-sayuran dan cara bercocok tanamnya." required>
+              <label for="package">Pengenalan tentang jenis-jenis sayur-sayuran dan cara bercocok tanamnya.</label><br>
+              <input type="radio" id="buah" name="package" value="Pengenalan tentang jenis-jenis buah-buahan dan cara bercocok tanamnya." required>
+              <label for="package">Pengenalan tentang jenis-jenis buah-buahan dan cara bercocok tanamnya.</label><br>
+              <input type="radio" id="herbal" name="package" value="Pengenalan tentang jenis-jenis tanaman herbal dan cara bercocok tanamnya." required>
+              <label for="package">Pengenalan tentang jenis-jenis tanaman herbal dan cara bercocok tanamnya.</label><br>
+
+              <label for="person"><b>Tipe Pengunjung</b></label>
+                <select id="person" name="person">
+                <option value="keluarga">Keluarga</option>
+                <option value="anak-anak">Anak-anak</option>
+                <option value="remaja">Remaja</option>
+                <option value="dewasa">Dewasa</option>
+                </select>
+                <br>
+                
+                <label for="note"><b>Catatan Tambahan</b></label><br>
+                <textarea name="note" rows="10" cols="30"></textarea>
+            
+
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
